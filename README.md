@@ -1,5 +1,7 @@
 # HackMD Themes Collection
 
+###### tags: `theme`
+
 HackMD 半官方主題
 
 
