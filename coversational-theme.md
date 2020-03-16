@@ -16,10 +16,11 @@ image: https://i.imgur.com/wrDi84K.png
 .markdown-body hr ~ table, 
 .markdown-body hr ~ pre {
     border-radius: 5px;
-    background-color: #e7e7e7;
+    background-color: #f3f3f3;
     margin-left: 1em;
     margin: 10px 0px !important;
     padding: 10px;
+    border: 1px solid #dadada;
 }
 
 .markdown-body * {
@@ -42,7 +43,8 @@ hr {
     margin-bottom: 20px !important;
     display: inline-block;
     border-style: solid;
-    border-color: #4F4F4F;
+    border-width: 1px;
+    border-color: #c1c1c1;
 }
 
 .markdown-body hr + p:before, 
@@ -59,8 +61,26 @@ hr {
     width: 0;
     height: 0;
     border-style: solid;
+    border-width: 0 22px 18px 22px;
+    border-color: transparent transparent #c1c1c1 transparent;
+}
+
+.markdown-body hr + p:after, 
+.markdown-body hr + blockquote:after, 
+.markdown-body hr + ul:after, 
+.markdown-body hr + ol:after, 
+.markdown-body hr + dl:after, 
+.markdown-body hr + table:after, 
+.markdown-body hr + pre:after {
+    content: '';
+    position: absolute;
+    bottom: -32px;
+    left: 21px;
+    width: 0;
+    height: 0;
+    border-style: solid;
     border-width: 0 20px 16px 20px;
-    border-color: transparent transparent #E7E7E7 transparent;
+    border-color: transparent transparent #f3f3f3 transparent;
 }
 
 .markdown-body hr + hr ~ p, 
