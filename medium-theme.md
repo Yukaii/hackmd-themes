@@ -32,7 +32,7 @@ TODOs:
 }
 
 .markdown-body blockquote {
-    font-family: medium-content-title-font, Georgia, Cambria, "Times New Roman", Times, serif
+    font-family: medium-content-title-font, Georgia, Cambria, "Times New Roman", Times, serif;
     padding-left: 30px;
     border: none;
     font-size: 30px;
