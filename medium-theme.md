@@ -1,6 +1,6 @@
 ---
 title: HackMD Medium Theme
-description: Medium styled markdown css, to use this, add `{hackmd @yukai/medium-theme}` in your HackMD note
+description: Medium styled markdown css, to use this, add `{% hackmd @yukai/medium-theme %}` in your HackMD note
 tags: theme
 TODOs:
     - revisit heading from h1~h6
@@ -119,6 +119,10 @@ TODOs:
 .markdown-body > ol, .markdown-body > ul {
     font-family: 'Noto Serif TC', medium-content-serif-font, Georgia, Cambria, "Times New Roman", Times, serif;
     color: rgba(0, 0, 0, 0.84);
+}
+
+.markdown-body > table {
+    font-size: 16px;
 }
 
 @media screen and (max-width: 727.98px) and (min-width: 552px) {
